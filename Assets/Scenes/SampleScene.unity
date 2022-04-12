@@ -298,7 +298,7 @@ MonoBehaviour:
   PrecioProducto1: 100
   PrecioProducto2: 40
   PrecioProducto3: 80
-  CantidadProducto1: 1
+  CantidadProducto1: 4
   CantidadProducto2: 1
   CantidadProducto3: 4
 --- !u!4 &1599462173

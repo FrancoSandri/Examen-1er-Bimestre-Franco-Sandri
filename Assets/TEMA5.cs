@@ -44,7 +44,7 @@ public class TEMA5 : MonoBehaviour
             monto1 = PrecioProducto1 * CantidadProducto1;
             monto2 = PrecioProducto2 * CantidadProducto2;
             monto3 = PrecioProducto3 * CantidadProducto3;
-            montodescuento = (monto1 - descuento1) + (monto2 - descuento2) + (monto3 - descuento3);
+            
             if (CantidadProducto1 > 3)
             {
                 descuento1 = (monto1 / 100) * 20;
@@ -60,6 +60,7 @@ public class TEMA5 : MonoBehaviour
                 descuento3 = (monto3 / 100) * 20;
             }
         }
+        montodescuento = (monto1 - descuento1) + (monto2 - descuento2) + (monto3 - descuento3);
         Debug.Log("El monto total de la compra es $" + (monto1 + monto2 + monto3));
         Debug.Log("El monto de los descuentos aplicados es $" + (descuento1 + descuento2 + descuento3));
         Debug.Log("El monto total con el descuento es $" + montodescuento);
